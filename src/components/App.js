@@ -9,6 +9,7 @@ const App = () => {
 
   return (
     <div className="parent">
+    <h1>Parent Component</h1>
     <div className="tomato-child">
       <h2>Child Component 1</h2>
       <button onClick={(e)=>{setdata(e.target.innerHTML)}}>Option 1</button>
@@ -19,10 +20,10 @@ const App = () => {
       <button onClick={(e)=>{setdata(e.target.innerHTML)}}>Option 2</button>
     </div>
 
-    <div className="answer">
+    <p className="answer">
     Selected Option: {data}
 
-    </div>
+    </p>
         
     </div>
   )
